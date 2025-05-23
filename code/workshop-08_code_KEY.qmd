@@ -202,7 +202,7 @@ ggplot(data = drought_exp_clean,
                fun = mean,
                size = 4) +
   # making sure that axis labels wrap nicely
-  scale_x_discrete(labels = label_wrap(10)) +
+  scale_x_discrete(labels = label_wrap(100)) +
   # setting colors manually
   scale_color_manual(values = c(
     "Lotus scoparius" = lotsco_col,
