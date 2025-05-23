@@ -2,7 +2,7 @@
 title: "Workshop 8 KEY"
 subtitle: "R 5:00 PM"
 author: "Lukas Lescano"
-date: "05/22/2025"
+date: "2025-05-22"
 format:
   html:
     toc: true # use this to display a table of contents
@@ -127,8 +127,8 @@ And displaying some rows from the data frame:
 
 ```{r showing-data-frame-rows}
 slice_sample(
-  drought_exp_clean, # data frame
-  n = 10 # showing 10 rows
+  drought_exp_clean, # data frame to display
+  n = 10 # showing 10 rows to display
 )
 ```
 
