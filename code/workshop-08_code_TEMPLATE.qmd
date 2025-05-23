@@ -44,7 +44,10 @@ library(ggeffects) # getting model predictions
 library(MuMIn) # model selection
 
 # read in your data here
-
+drought_exp <- read_xlsx(
+  here("data", "Valliere_etal_EcoAppps_data.xlsx"),
+  sheet = "First Harvest"
+)
 ```
 
 Storing some colors to use in visualizations, and setting a common `ggplot` theme for all plots:

@@ -1,8 +1,8 @@
 ---
 title: "Workshop 8 KEY"
-subtitle: "insert your section time here"
-author: "insert your name here"
-date: "insert your name here"
+subtitle: "R 5:00 PM"
+author: "Lukas Lescano"
+date: "05/22/2025"
 format:
   html:
     toc: true # use this to display a table of contents
@@ -98,6 +98,7 @@ drought_exp_clean <- drought_exp |> # starting with the drought_exp object
     "DS" ~ "Drought stressed"
   )) |> 
   # making sure that species_name is a factor and ordering levels
+  # first level should be Lotus scoparius
   mutate(species_name = as_factor(species_name),
          species_name = fct_relevel(species_name,
                                     "Lotus scoparius",
