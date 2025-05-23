@@ -285,8 +285,8 @@ model7 <- lm(total_g ~ species_name,
 ## Model diagnostics
 
 ```{r model-diagnostics}
-par(mfrow = c(2,2))
-plot(model1)
+par(mfrow = c(2,2)) # creates a 2x2 grid to display diagnostic plots
+plot(model1) 
 plot(model2)
 plot(model3)
 plot(model4) # residuals look ok for best model
